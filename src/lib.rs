@@ -25,6 +25,7 @@
 #![feature(specialization)]
 #![feature(asm)]
 #![deny(missing_docs)]
+#![feature(llvm_asm)]
 
 pub mod batch_gpio;
 pub mod capture;
